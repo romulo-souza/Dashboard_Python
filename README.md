@@ -44,11 +44,13 @@ O dashboard permite explorar dados salariais de profissionais da área de dados,
 
 1. **Clonar o repositório**
 
-2. **Criar o ambiente virtual**
+2. **Criar o ambiente virtual:**
    `python -m venv .venv`
 
-3. **Ativar o ambiente virtual**
+3. **Ativar o ambiente virtual:**
+
    Windows: `.venv\Scripts\Activate`
+   
    
    Linux/Mac: `source .venv/bin/activate`
 
