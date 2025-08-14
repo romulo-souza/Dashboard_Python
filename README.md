@@ -1,16 +1,16 @@
 # Dashboard de Análise de Salários na Área de Dados
 
-Link do dashboard:
+Link do dashboard: https://dashboardsalarios-dados.streamlit.app/ 
 
 Projeto desenvolvido durante a **Imersão Dados com Python** promovida pela Alura.
 
 Trata-se da criação de um **dashboard interativo em Python**, desde o **tratamento dos dados** no Google Colab até o **deploy do dashboard** utilizando Streamlit.
 
-## O dashboard permite explorar dados salariais de profissionais da área de dados, com aplicação de filtros e exibição de gráficos interativos.
+O dashboard permite explorar dados salariais de profissionais da área de dados, com aplicação de filtros e exibição de gráficos interativos.
 
 ## Funcionalidades
 
-- Filtros interativos:
+- Filtros interativos por:
   - Ano
   - Senioridade
   - Tipo de Contrato
@@ -21,18 +21,16 @@ Trata-se da criação de um **dashboard interativo em Python**, desde o **tratam
   - Salário máximo
   - Total de registros
   - Cargo mais frequente
-  
+
 - Gráficos interativos com Plotly:
   - Top 10 cargos por salário médio anual
   - Distribuição de salários anuais (histograma)
   - Proporção de regimes de trabalho (gráfico de rosca)
   - Salário médio anual de Cientista de Dados por país (mapa)
 
-- Visualização de dados detalhados em tabela
+- Visualização dos dados detalhados em tabela
 
 - Download dos dados detalhados
-
----
 
 ## Tecnologias utilizadas
 
@@ -47,15 +45,15 @@ Trata-se da criação de um **dashboard interativo em Python**, desde o **tratam
 1. **Clonar o repositório**
 
 2. **Criar o ambiente virtual**
-   `shell python -m venv .venv`
+   `python -m venv .venv`
 
 3. **Ativar o ambiente virtual**
-   Windows: `shell .venv\Scripts\Activate`
-
-Linux/Mac: `shell source .venv/bin/activate`
+   Windows: `.venv\Scripts\Activate`
+   
+   Linux/Mac: `source .venv/bin/activate`
 
 4. **Instalar as dependências**
-   `shell pip install -r requirements.txt`
+   `pip install -r requirements.txt`
 
 5. **Executar o código**
-   `shell streamlit run app.py`
+   `streamlit run app.py`
