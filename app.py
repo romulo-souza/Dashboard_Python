@@ -10,14 +10,8 @@ st.set_page_config(
     layout="wide",
 )
 
-# --- Carregamento dos dados em cache para o csv ser baixado apenas uma vez e ser reutilizado para as mudanças de filtros (amenizar o delay) ---
-
-@st.cache_data # retorno da função será armazenado em cache.
-def carregar_dados():
-    url = "https://raw.githubusercontent.com/romulo-souza/Dashboard_Python/refs/heads/main/data/df_tratado.csv"
-    return pd.read_csv(url)
-
-df = carregar_dados()
+# --- Carregamento dos dados ---
+df = pd.read_csv("./data/df_tratado.csv")
 
 # --- Barra lateral (filtros) ---
 st.sidebar.header("🔍 Filtros")
