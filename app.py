@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # --- Carregamento dos dados ---
-df = pd.read_csv("https://raw.githubusercontent.com/romulo-souza/dashboard/refs/heads/main/Dashboard/data/df_tratado.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/romulo-souza/Dashboard_Python/refs/heads/main/data/df_tratado.csv")
 
 # --- Barra lateral (filtros) ---
 st.sidebar.header("🔍 Filtros")
